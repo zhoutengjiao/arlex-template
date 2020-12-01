@@ -21,7 +21,8 @@
     "vue-router": "^3.4.9"
   },
   "devDependencies": {
-    "@arlex/eslint-config-base": "^1.0.0",
+    "@arlex/eslint-config-base": "^1.0.1",
+    "@arlex/stylelint-config-base": "^1.0.0",
     "eslint": "^6.8.0",
     "prettier": "^2.0.1",
     "stylelint": "^13.2.1",
