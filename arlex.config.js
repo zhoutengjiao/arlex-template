@@ -1,5 +1,5 @@
 module.exports = {
-  appName: "xdx",
+  appName: "xdsx",
 
   srcName: "src",
 
