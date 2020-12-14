@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "author": "",
-  "scripts": {},
+  "scripts": {
+    "dev": "alx dev"
+  },
   "husky": {
     "hooks": {
       "pre-commit": "",
@@ -21,23 +23,17 @@
     "vue-router": "^3.4.9"
   },
   "devDependencies": {
-    "@arlex/eslint-config-base": "^1.0.1",
     "@arlex/stylelint-config-base": "^1.0.0",
-    "eslint": "^6.8.0",
-    "prettier": "^2.0.1",
-    "stylelint": "^13.2.1",
     "@commitlint/cli": "^11.0.0",
     "@commitlint/config-conventional": "^11.0.0",
+    "eslint": "^6.8.0",
     "husky": "^4.3.0",
-    "lint-staged": "^10.5.1"
+    "lint-staged": "^10.5.1",
+    "prettier": "^2.0.1",
+    "stylelint": "^13.2.1"
   },
   "engines": {
     "node": ">= 6.0.0",
     "npm": ">= 3.0.0"
-  },
-  "browserslist": [
-    "> 1%",
-    "last 2 versions",
-    "not ie <= 8"
-  ]
+  }
 }

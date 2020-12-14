@@ -1,3 +1,3 @@
 module.exports = {
-  extends: "@arlex/eslint-config-base",
+  // extends: "@arlex/eslint-config-base",
 };

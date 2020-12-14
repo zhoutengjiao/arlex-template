@@ -2,6 +2,7 @@
   <div id="app">
     <router-link to="/picture">picture</router-link>
     <router-link to="/">home</router-link>
+    <router-link to="/jsx">jsx</router-link>
     <img src="./assets/logo.png" />
     <router-view />
   </div>
@@ -20,6 +21,9 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+  margin-top: 61px;
+}
+.app {
+  display: flex;
 }
 </style>
