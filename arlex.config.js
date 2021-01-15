@@ -45,7 +45,10 @@ module.exports = {
    *  ]}
    * }
    */
-  includes: {},
+  includes: {
+    css: path.resolve(__dirname, 'node_modules/element-ui'),
+    font: path.resolve(__dirname, 'node_modules/element-ui')
+  },
 
   /**
    * 兼容浏览器版本
