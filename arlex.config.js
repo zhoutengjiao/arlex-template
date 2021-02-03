@@ -11,12 +11,12 @@ module.exports = {
   /**
    * 入口配置，参考webpack entry配置
    */
-  entry: undefined,
+  entry: void 0,
 
   /**
    * 输出配置，参考webpack output配置
    */
-  output: undefined,
+  output: void 0,
 
   /**
    * HTML模板根路径
@@ -81,5 +81,6 @@ module.exports = {
     stats: "errors-only",
     port: "3000",
     host: "localhost",
+    before: require('./mock/mockServer')
   },
 };

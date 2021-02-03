@@ -12,9 +12,7 @@
       <span>王小虎</span>
     </el-header>
     <el-container>
-      <el-aside style="background-color: rgb(238, 241, 246)">
-        
-      </el-aside>
+      <el-aside style="background-color: rgb(238, 241, 246)"> </el-aside>
       <el-main> </el-main>
     </el-container>
   </el-container>
